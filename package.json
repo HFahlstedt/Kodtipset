@@ -1,0 +1,16 @@
+{
+  "name": "kodtipset",
+  "version": "0.0.1",
+  "description": "The ultimate source for programming for kids.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Håkan Fahlstedt",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.7.1",
+    "vue": "^2.5.13",
+    "vue-class-component": "^6.1.2"
+  }
+}
