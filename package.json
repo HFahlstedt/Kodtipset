@@ -4,13 +4,20 @@
   "description": "The ultimate source for programming for kids.",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Håkan Fahlstedt",
   "license": "MIT",
   "devDependencies": {
+    "css-loader": "^0.28.9",
+    "ts-loader": "^3.4.0",
     "typescript": "^2.7.1",
     "vue": "^2.5.13",
-    "vue-class-component": "^6.1.2"
+    "vue-class-component": "^6.1.2",
+    "vue-loader": "^14.1.1",
+    "vue-property-decorator": "^6.0.0",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.10.0"
   }
 }

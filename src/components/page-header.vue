@@ -6,7 +6,8 @@
 import Vue from 'vue'
 import Component from 'vue-class-component';
 
-export default class Header extends Vue {
+@Component
+export default class PageHeader extends Vue {
     title: string;
 
     constructor() {

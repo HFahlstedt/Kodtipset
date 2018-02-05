@@ -11,7 +11,8 @@ import Component from 'vue-class-component';
 
 import { Category } from '../entities/category';
 
-export default class Categories extends Vue {
+@Component
+export default class CategoryList extends Vue {
     categories: Category[];
 
     constructor() {

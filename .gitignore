@@ -13,3 +13,7 @@ yarn-error.log*
 .history
 
 node_modules
+
+dist
+
+.cache
