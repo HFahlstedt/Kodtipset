@@ -1,7 +1,8 @@
 <template lang="pug">
     .category-list
         ul
-            li(v-for="category in categories" :key="category.id" :style='category.style') {{ category.name }}
+            li(v-for="category in categories" :key="category.id" :style='category.style') 
+                router-link(:to="{ name: 'category', params: { categoryId: category.id }}") {{ category.name }}
 </template>
 
 <script lang="ts">
@@ -36,5 +37,9 @@ export default class CategoryList extends Vue {
             margin: 5px;
             text-align: center;
         }
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
     }
 </style>
