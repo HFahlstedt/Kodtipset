@@ -1,5 +1,7 @@
-<template>
-  <h1>{{ title }}</h1>
+<template lang="pug">
+    div
+        h1 {{ title }}
+        hr
 </template>
 
 <script lang="ts">
@@ -16,3 +18,14 @@ export default class PageHeader extends Vue {
     }
 }
 </script>
+
+<style lang="scss">
+    body {
+        color: white;
+        background: rgb(115, 187, 255);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    hr {
+        border-top: solid 1px white;
+    }
+</style>
