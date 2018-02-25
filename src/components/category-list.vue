@@ -26,20 +26,25 @@ export default class CategoryList extends Vue {
 </script>
 
 <style lang="scss">
-    ul {
-        display: inline;
+    .category-list {
+        text-align: center;
 
-        li {
-            display: inline-block;
-            padding: 10px;
-            border-radius: 5px;
-            width: 17%;
-            margin: 5px;
-            text-align: center;
+        ul {
+            display: inline;
+            padding: 0;
+
+            li {
+                display: inline-block;
+                padding: 10px;
+                border-radius: 5px;
+                width: 17%;
+                margin: 5px;
+                text-align: center;
+            }
         }
-    }
-    a {
-        text-decoration: none;
-        color: inherit;
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
     }
 </style>
