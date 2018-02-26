@@ -19,10 +19,13 @@ export default class PageHeader extends Vue {
 </script>
 
 <style lang="scss">
+    @import '../colors';
+
     body {
         color: white;
-        background: rgb(115, 187, 255);
+        background: $main-background;
         font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
     }
     h1 {
         border-bottom: solid 1px white;

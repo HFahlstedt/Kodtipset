@@ -39,6 +39,8 @@ export default class CategoryContent extends Vue  {
 </script>
 
 <style lang="scss">
+    @import '../colors';
+
     .category-content-container {
         text-align: center;
 
@@ -50,13 +52,15 @@ export default class CategoryContent extends Vue  {
             table {
                 width: 100%;
                 border-collapse: collapse;
+                line-height: 2rem;
+                border: 1px solid white;
 
                 tr:nth-child(odd) {
-                    background-color: #aaaaaa;
+                    background-color: lighten($color: $main-background, $amount: 10);
                 }
 
                 tr:nth-child(even) {
-                    background-color: #dddddd;
+                    background-color: darken($color: $main-background, $amount: 10);
                 }
             }
         }
