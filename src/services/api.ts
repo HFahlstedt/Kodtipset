@@ -51,6 +51,12 @@ export class Api {
             { id: 501, title: 'Bok 1', },
             { id: 502, title: 'Bok 2', }            
         ]
+    },
+    {
+        id: 6,
+        name: 'Butiker',
+        style: { 'background-color': 'blue'},
+        content: []
     }];
 
     getCategories(): Promise<Category[]> { 
